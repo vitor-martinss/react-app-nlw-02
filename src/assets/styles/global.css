@@ -1,0 +1,195 @@
+/* RESET CSS */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+:root {
+	--base-font: 62.5%;
+	--color-background: #F0F0F7;
+	--color-primary-lighter: #9871F5;
+	--color-primary-light: #916BEA;
+	--color-primary: #8257E5;
+	--color-primary-dark: #774DD6;
+	--color-primary-darker: #6842C2;
+	--color-secundary: #04D361;
+	--color-secundary-dark: #04BF58;
+	--color-title-in-primary: #FFFFFF;
+	--color-text-in-primary: #D4C2FF;
+	--color-text-title: #32264D;
+	--color-text-complement: #9C98A6;
+	--color-text-base: #6A6180;
+	--color-line-in-white: #E6E6F0;
+	--color-input-background: #F8F8FC;
+	--color-button-text: #FFFFFF;
+	--color-box-base: #FFFFFF;
+	--color-box-footer: #FAFAFC;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: var(--base-font);
+}
+
+body {
+	background: var(--color-background);
+	font-size: 1.6rem;
+}
+
+#root {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+body,
+input,
+button,
+textarea {
+	font: 500 1.6rem Poppins;
+}
+
+@media (min-width: 700px) {
+
+	body,
+	input,
+	button,
+	textarea {
+		font-size: 1.8rem;
+	}
+}
+
+
+.container {
+	width: 90vw;
+	max-width: 70rem;
+}

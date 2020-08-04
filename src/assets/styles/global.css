@@ -193,3 +193,12 @@ textarea {
 	width: 90vw;
 	max-width: 70rem;
 }
+
+@media (min-width: 700px) {
+
+	.container {
+		width: 90vw;
+		max-width: 100%;
+	}
+
+}
